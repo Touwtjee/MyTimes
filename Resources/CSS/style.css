@@ -37,3 +37,50 @@ nav a{
   height: 60px;
   margin-right: 12px;
 }
+
+.main-content{
+  border: 1px solid black;
+  display: flex;
+  margin: 0 auto 78px auto;
+  width: 1232px;
+  padding-top: 116px;
+  justify-content: center;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large{
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.medium{
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small{
+  width: 240px;
+  border: 1px solid black;
+}
+
+.story{
+  border: 1px solid black;
+}
+
+.stories{
+  border: 1px solid black;
+}
+
+.image-content{
+  border: 1px solid black;
+  display: flex;
+}
+
+.news-bites{
+  border: 1px solid black;
+}
